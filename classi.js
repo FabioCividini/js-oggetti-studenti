@@ -5,7 +5,7 @@ let studente = {
 }
 
 for (let chiave in studente) {
-    console.log(chiave);
+ //   console.log(chiave);
 }
 
 let studenti = [
@@ -26,10 +26,22 @@ let studenti = [
     }
 ]
 
+
 for (let i = 0; i < studenti.length; i++) {
-    console.log(studenti[i].nome + " " + studenti[i].cognome);
+ //   console.log(studenti[i].nome + " " + studenti[i].cognome);
 }
+
 
 let nomeStudente = prompt('Inserire il nome dello studente');
 let cognomeStudente = prompt('Inserire il cognome dello studente');
 let etàStudente = prompt('Inserire età dello studente');
+
+studenti.push({
+    nome: nomeStudente,
+    cognome: cognomeStudente,
+    età: etàStudente,
+})
+
+for (let i = 0; i<studenti.length; i++) {
+    console.log(studenti[i].nome + " " + studenti[i].cognome + " " + studenti[i].età);
+}
