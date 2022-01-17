@@ -4,4 +4,7 @@ let studente = {
     età: '24',
 }
 
-console.log(studente);
+for (let chiave in studente) {
+    console.log(chiave);
+}
+
