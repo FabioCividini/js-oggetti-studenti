@@ -1,7 +1,7 @@
 let studente = {
-    nome: 'nome1',
-    cognome: 'cognome1',
-    età: 'età1',
+    nome: 'nome#1',
+    cognome: 'cognome#1',
+    età: 'età#1',
 }
 
 for (let chiave in studente) {
@@ -10,18 +10,22 @@ for (let chiave in studente) {
 
 let studenti = [
     {
-        nome: 'nome2',
-        cognome: 'cognome2',
-        età: 'etè2',
+        nome: 'nome#2',
+        cognome: 'cognome#2',
+        età: 'etè#2',
     },
     {
-        nome: 'nome3',
-        cognome: 'cognome3',
-        età: 'etè3',
+        nome: 'nome#3',
+        cognome: 'cognome#3',
+        età: 'etè#3',
     },
     {
-        nome: 'nome4',
-        cognome: 'cognome4',
-        età: 'etè4',
+        nome: 'nome#4',
+        cognome: 'cognome#4',
+        età: 'etè#4',
     }
 ]
+
+for (let i = 0; i < studenti.length; i++) {
+    console.log(studenti[i].nome + " " + studenti[i].cognome);
+}
