@@ -29,3 +29,7 @@ let studenti = [
 for (let i = 0; i < studenti.length; i++) {
     console.log(studenti[i].nome + " " + studenti[i].cognome);
 }
+
+let nomeStudente = prompt('Inserire il nome dello studente');
+let cognomeStudente = prompt('Inserire il cognome dello studente');
+let etàStudente = prompt('Inserire età dello studente');
